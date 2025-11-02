@@ -191,5 +191,3 @@ pip install PyQt5
 El programa usa `np.inf` de **NumPy** para representar distancias infinitas *(nodos no conectados)*. En la visualización se muestra como **“∞”**.
 
 ---
-
-## Video sustentación
