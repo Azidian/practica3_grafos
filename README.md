@@ -60,20 +60,19 @@ k-paths-algorithm/
 ├── src/
 │   ├── algorithms/
 │   │   ├── __init__.py
-│   │   ├── k_paths.py          # Algoritmo principal
-│   │   └── utils.py            # Funciones auxiliares
+│   │   ├── k_paths.py
+|   |   ├── shortest_path.py          
+│   │   └── utils.py          # Funciones auxiliares
 │   │
+|   ├── grafo_visual.py
 │   ├── graph.py                # Clases de visualización del grafo
 │   ├── ui.py                   # Interfaz gráfica principal
 │   └── main.py                 # Punto de entrada
 │
-├── examples/
+├── scripts/
 │   ├── demo_consola.py         # Demostraciones en consola
 │   └── test_k_paths.py         # Casos de pruebas
-│
-├── grafo_visual.py             # Aplicación completa 
-├── k_paths_algorithm.py        # Algoritmo standalone
-├── requirements.txt
+│          
 └── README.md
 ```
 
